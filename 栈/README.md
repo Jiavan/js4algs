@@ -6,7 +6,7 @@
 首先构建我们的抽象数据类型.
 ```javascript
 Stack
-top // 栈顶元素
+top // 栈顶元素位置
 dataStore //保存数据的数组
 push // 压栈
 pop // 出栈
@@ -36,7 +36,7 @@ Stack.prototype = {
 		return this.dataStore[this.top - 1];
 	},
 	empty: function () {
-		this.dataStore,length = 0;	
+		this.dataStore.length = 0;	
 	},
 	length: function () {
 		return this.dataStore.length;
@@ -79,7 +79,7 @@ stack.print();
 
 # 应用
 对num数进行n进制的转换，大致算法如下：
-- 对num和n进行求余和想除取整
+- 对num和n进行求余和相除取整
 - 将余数入栈push
 - 回到第一步直至除到值为0
 
