@@ -12,6 +12,5 @@ test with nodejs v4.3.1
 -[ ] Sort
 -[ ] Search
 
-
 ## License
 [WTFPL](http://www.wtfpl.net/txt/copying/)
