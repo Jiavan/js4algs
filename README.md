@@ -5,11 +5,11 @@ test with nodejs v4.3.1
 - [x] Queue
 - [x] Stack
 - [x] Linkedlist
-- [ ] Binary Tree
-- [ ] Binary Search Tree
+- [x] Binary Tree
+- [x] Binary Search Tree
 - [ ] Set
 - [ ] Hash table
-- [ ] Sort
+- [x] Sort
 - [ ] Search
 
 ## License
